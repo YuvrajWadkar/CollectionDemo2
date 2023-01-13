@@ -13,7 +13,11 @@ public class Test {
 		list.add("shubham");
 		list.add("arohi");
 		
-		System.out.println(list);
+	//	System.out.println(list);
+	
+		for( String s : list) {
+			System.out.println(s);
+		}
 	}
 
 }
